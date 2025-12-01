@@ -1,0 +1,67 @@
+*{
+    text-align: center;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+p, label, input, a{
+    font-family: 'Roboto', sans-serif;
+}
+h2, h1{
+    font-family: 'Poppins', sans-serif;
+}
+hr{
+    color: red;
+}
+.landing-text{
+    text-align: center;
+    padding: 8vw;
+    color: white;
+}
+.landing-page{
+    background-image: url(../assets/landingpage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.9;
+}
+.order-button{
+    margin-top: 4vw;
+}
+#delivery, #payment, #offers, #hotels{
+    display: none;
+}
+#buy{
+    animation: bounce 4s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-25px);
+    }
+    60% {
+        transform: translateY(-25px);
+    }
+}
+.land-button{
+    margin-top: 60px;
+}
+
+.services-img:hover{
+    cursor: pointer;
+}
+.myOrder{
+    display: none;
+}
+
+
+
+
+/* .my-image{
+    transition: all 2s ease-in-out;
+}
+.my-image:hover{
+    transform: scale(2, 2);
+    cursor: progress;
+} */
